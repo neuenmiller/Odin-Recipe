@@ -1,4 +1,34 @@
-p {
-    color: yellow;
+.title,
+.introduction{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 5px solid aqua;
+    margin: 5px;
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(170, 235, 243, 0.555);
+    height: 100%;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+.introduction p{
+    margin: 20px;
+}
+
+.ingredients li{
+     margin: 10px;
+}
+
+.description{
+
+
+}
